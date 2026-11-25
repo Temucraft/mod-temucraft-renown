@@ -1,0 +1,38 @@
+[worldserver]
+
+########################################
+# mod-temucraft-renown
+########################################
+#
+#    Temucraft.Renown.Enable
+#        Description: Renown tracks (world DB, mod_temucraft_renown_track): levels of a faction's reputation with
+#                     rewards, granted once per character, shown by the Temucraft reputation window and /renown.
+#        Default:     1
+
+Temucraft.Renown.Enable = 1
+
+#
+#    Temucraft.Renown.Announce
+#        Description: Say in the chat window when a Renown level is reached (and its reward).
+#        Default:     1
+
+Temucraft.Renown.Announce = 1
+
+#
+#    Temucraft.Renown.Warband.Enable
+#        Description: Account-wide ("Warband") reputation for the factions below: the best standing any character
+#                     of the account reached (kept at saves and logout) is given to the account's other characters
+#                     when they log in. It is never lowered, and a faction the character's side can never have
+#                     (the other side's capitals) is skipped.
+#        Default:     0
+
+Temucraft.Renown.Warband.Enable = 0
+
+#
+#    Temucraft.Renown.Warband.Factions
+#        Description: Faction ids (Faction.dbc) shared across the account, separated by commas. Neutral factions
+#                     work best, e.g. "1106,1098,1073,1091,1090" (Argent Crusade, Knights of the Ebon Blade,
+#                     The Kalu'ak, The Wyrmrest Accord, Kirin Tor).
+#        Default:     ""
+
+Temucraft.Renown.Warband.Factions = ""
